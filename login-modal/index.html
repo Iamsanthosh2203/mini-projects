@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Modal</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Gloabl Conatine -->
+    <div class="flex px-3 py-4 justify-center items-center min-h-screen bg-pink-400">
+      <!-- Login Section -->
+      <main class="flex w-auto md:w-[70%] bg-white rounded-xl p-6 shadow-xl">
+        <div class="flex flex-col basis-[60%] p-6 flex-grow">
+          <h1 class="font-bold text-2xl mb-4">Log In</h1>
+          <p class="font-thin mb-4">
+            Login to your account to upload or download pictures, videos or
+            music
+          </p>
+
+          <input
+            type="email"
+            placeholder="Enter your email address"
+            class="my-7 p-6 font-extralight outline-none bg-white border-gray-600 border rounded-lg"
+          />
+
+          <div class="flex flex-col md:flex-row justify-between items-center">
+            <a href="http://" class="font-thin text-blue-700"
+              >Forget Password</a
+            >
+
+            <button
+              class="p-5 bg-blue-600 md:w-auto w-full my-2 mb-8 hover:bg-blue-900 hover:scale-110 duration-500 rounded-xl text-white shadow-lg"
+            >
+              Next <i class="mx-2 fa fa-arrow-right"></i>
+            </button>
+          </div>
+          <hr />
+
+          <div>
+            <p class="text-center my-6 text-gray-500">or login with</p>
+
+            <div class="flex flex-col justify-around md:flex-row">
+              <div class="my-4 flex items-center justify-center">
+                <div class="w-full">
+                  <button class="w-full md:w-auto text-xl p-4 shadow-sm border rounded-md">
+                    <i class="fa-brands fa-facebook text-2xl mr-3"></i>Facebook
+                  </button>
+                </div>
+              </div>
+
+              <div class="flex items-center justify-center">
+                <div class="w-full">
+                  <button class="w-full md:w-auto text-xl p-4 shadow-sm border rounded-md">
+                    <i class="fa-brands fa-google text-2xl mr-3"></i>Google
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image Section -->
+        <div
+          class="bg-cover md:basis-[40%] basis-0 relative rounded-r-xl -mr-6 -my-6 bg-black"
+            style="background-image: url(images/image.jpg);"
+          >
+          <div class="absolute text-white right-0 m-3">
+            <button><i class="fa fa-xmark-circle text-3xl"></i></button>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

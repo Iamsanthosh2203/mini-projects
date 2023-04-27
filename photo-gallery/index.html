@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Global container -->
+    <div
+      class="flex items-center justify-center py-3 min-h-screen md:py-8 2xl:h-screen bg-[#2A2F4F]"
+    >
+      <!-- Main -->
+      <div
+        class="bg-[#917FB3] p-6 text-[#1c213b] rounded-xl w-[70%] md:w-[85%] h-[85%]"
+      >
+        <!-- Navigation -->
+        <nav
+          class="flex flex-col gap-y-3 md:flex-row md:gap-y-0 gap-x-6 md:w-full md:justify-end text-center mb-10 items-center"
+        >
+          <div class="group">
+            <a href="" class="tracking-wider">About</a>
+            <div
+              class="mx-1 border border-[#2A2F4F] opacity-0 group-hover:opacity-100 duration-500"
+            ></div>
+          </div>
+          <div class="group">
+            <a href="" class="tracking-wider">Vector</a>
+            <div
+              class="mx-1 border border-[#2A2F4F] opacity-0 group-hover:opacity-100 duration-500"
+            ></div>
+          </div>
+          <div class="group">
+            <a href="" class="tracking-wider">Illustration</a>
+            <div
+              class="mx-1 border border-[#2A2F4F] opacity-0 group-hover:opacity-100 duration-500"
+            ></div>
+          </div>
+          <div class="group">
+            <a href="" class="tracking-wider">Images</a>
+            <div
+              class="mx-1 border border-[#2A2F4F] opacity-0 group-hover:opacity-100 duration-500"
+            ></div>
+          </div>
+          <div class="group">
+            <a href="" class="tracking-wider">Icons</a>
+            <div
+              class="mx-1 border border-[#2A2F4F] opacity-0 group-hover:opacity-100 duration-500"
+            ></div>
+          </div>
+        </nav>
+
+        <div class="flex flex-col gap-y-3 md:gap-0 md:justify-between md:flex-row">
+          <!-- Search bar -->
+          <div class="flex md:w-[50%]
+                    justify-between
+                    border-[#2A2F4F] border-b-[1px]">
+            <div class="w-[90%] md:w-[50%]">
+              <input
+                type="text"
+                class="w-[100%] p-2 bg-[#917FB3] outline-none placeholder-white text-white placeholder-opacity-50"
+                placeholder="Search"
+              />
+            </div>
+            <button>
+              <i class="fa fa-magnifying-glass"></i>
+            </button>
+          </div>
+
+
+          <!-- Submit button -->
+
+          <button class="p-4 rounded-xl text-gray-200 font-semibold bg-[#1c213b]">
+            UPLOAD
+          </button>
+
+        </div>
+
+
+        <!-- Images container -->
+
+        <div class="flex w-full flex-wrap justify-center md:justify-between">
+           
+            <div class="group w-[16rem] h-[16rem] ml-2 my-4 bg-green-600">
+                <div class="w-full h-full">
+                    <img src="images/image1.jpg" class="w-[100%] h-[100%]" alt="" srcset="">
+                    <div class="relative -top-10 h-10 p-1 text-center text-opacity-0 group-hover:text-opacity-100 text-white bg-opacity-0 duration-500 group-hover:bg-opacity-50 bg-slate-700">
+                        <div class="flex justify-around items-center">
+                            <div class="flex flex-col text-[.7rem]">
+                                <h1>Abstract Painting</h1>
+                                <p>245 likes - 35 Shares</p>
+                            </div>
+
+                            <div>
+                                <i class="fa fa-bookmark"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group w-[16rem] h-[16rem] ml-2 my-4 bg-green-600">
+                <img src="images/image2.jpg" class="w-[100%] h-[100%]" alt="" srcset="">
+                <div class="relative -top-10 h-10 p-1 text-center text-opacity-0 group-hover:text-opacity-100 text-white bg-opacity-0 duration-500 group-hover:bg-opacity-50 bg-slate-700">
+                    <div class="flex justify-around items-center">
+                        <div class="flex flex-col text-[.7rem]">
+                            <h1>Abstract Painting</h1>
+                            <p>245 likes - 35 Shares</p>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-bookmark"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group w-[16rem] h-[16rem] ml-2 my-4 bg-green-600">
+                <img src="images/image3.jpg" class="w-[100%] h-[100%]" alt="" srcset="">
+                <div class="relative -top-10 h-10 p-1 text-center text-opacity-0 group-hover:text-opacity-100 text-white bg-opacity-0 duration-500 group-hover:bg-opacity-50 bg-slate-700">
+                    <div class="flex justify-around items-center">
+                        <div class="flex flex-col text-[.7rem]">
+                            <h1>Abstract Painting</h1>
+                            <p>245 likes - 35 Shares</p>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-bookmark"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group w-[16rem] h-[16rem] ml-2 my-4 bg-green-600">
+                <img src="images/image4.jpg" class="w-[100%] h-[100%]" alt="" srcset="">
+                <div class="relative -top-10 h-10 p-1 text-center text-opacity-0 group-hover:text-opacity-100 text-white bg-opacity-0 duration-500 group-hover:bg-opacity-50 bg-slate-700">
+                    <div class="flex justify-around items-center">
+                        <div class="flex flex-col text-[.7rem]">
+                            <h1>Abstract Painting</h1>
+                            <p>245 likes - 35 Shares</p>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-bookmark"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group w-[16rem] h-[16rem] ml-2 my-4 bg-green-600">
+                <img src="images/image5.jpg" class="w-[100%] h-[100%]" alt="" srcset="">
+                <div class="relative -top-10 h-10 p-1 text-center text-opacity-0 group-hover:text-opacity-100 text-white bg-opacity-0 duration-500 group-hover:bg-opacity-50 bg-slate-700">
+                    <div class="flex justify-around items-center">
+                        <div class="flex flex-col text-[.7rem]">
+                            <h1>Abstract Painting</h1>
+                            <p>245 likes - 35 Shares</p>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-bookmark"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group w-[16rem] h-[16rem] ml-2 my-4 bg-green-600">
+                <img src="images/image6.jpg" class="w-[100%] h-[100%]" alt="" srcset="">
+                <div class="relative -top-10 h-10 p-1 text-center text-opacity-0 group-hover:text-opacity-100 text-white bg-opacity-0 duration-500 group-hover:bg-opacity-50 bg-slate-700">
+                    <div class="flex justify-around items-center">
+                        <div class="flex flex-col text-[.7rem]">
+                            <h1>Abstract Painting</h1>
+                            <p>245 likes - 35 Shares</p>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-bookmark"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
